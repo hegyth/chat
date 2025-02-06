@@ -2,6 +2,7 @@
   "name": "chat",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://gitname.github.io/chat",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
