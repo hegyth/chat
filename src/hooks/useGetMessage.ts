@@ -5,7 +5,7 @@ import { getTime } from "../utils/getTime";
 
 export const useGetMessage = () => {
   const { idInstance, apiTokenInstance } = useAppSelector(
-    (state) => state.auth.authenticationData
+    (state) => state.authData.authenticationData
   );
 
   const dispatch = useAppDispatch();

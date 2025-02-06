@@ -10,7 +10,7 @@ export const useSendMessage = (chatId: string | undefined) => {
   const dispatch = useAppDispatch();
 
   const { idInstance, apiTokenInstance } = useAppSelector(
-    (state) => state.auth.authenticationData
+    (state) => state.authData.authenticationData
   );
 
   const handleSubmitMessage = async () => {
